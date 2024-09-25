@@ -13,11 +13,11 @@ Swagger Codegen version: 2.4.11
 =end
 
 $:.push File.expand_path("../lib", __FILE__)
-require "signrequest_client/version"
+require "fsp_signrequest_client/version"
 
 Gem::Specification.new do |s|
   s.name        = "fsp_signrequest_client"
-  s.version     = SignRequestClient::VERSION
+  s.version     = FspSignRequestClient::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["FreedomSolar"]
   s.email       = ["software@freedomsolarpower.com"]
