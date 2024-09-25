@@ -16,7 +16,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "signrequest_client/version"
 
 Gem::Specification.new do |s|
-  s.name        = "fsp_signrequest_client"
+  s.name        = "signrequest_client"
   s.version     = SignRequestClient::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["FreedomSolar"]
