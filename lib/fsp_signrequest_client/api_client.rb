@@ -264,6 +264,7 @@ module SignRequestClient
     def build_request_url(path)
       # Add leading and trailing slashes to path
       path = "/#{path}".gsub(/\/+/, '/')
+      puts "#{@config.base_url} + #{path}"
       URI(@config.base_url + path)
     end
 
