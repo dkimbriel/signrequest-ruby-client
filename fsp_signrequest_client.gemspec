@@ -17,7 +17,7 @@ require "fsp_signrequest_client/version"
 
 Gem::Specification.new do |s|
   s.name        = "fsp_signrequest_client"
-  s.version     = FspSignRequestClient::VERSION
+  s.version     = SignRequestClient::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["FreedomSolar"]
   s.email       = ["software@freedomsolarpower.com"]
